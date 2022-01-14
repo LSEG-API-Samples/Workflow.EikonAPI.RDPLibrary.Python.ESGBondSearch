@@ -21,7 +21,7 @@ nest-asyncio==1.5.1
 numpy==1.21.0
 packaging==20.9
 pandas==1.2.5
-Pillow==8.3.1
+Pillow==9.0.0
 pyparsing==2.4.7
 python-configuration==0.7.1
 python-dateutil==2.8.1

@@ -1,5 +1,5 @@
 # How to use SCREENER and RDP Search for finding Bons ESG Data Workflow
-- Last update: July 2021
+- Last update: January 2022
 - Environment: Windows 
 - Compiler: Conda distribution
 - Prerequisite: Refinitiv Eikon or Refinitiv Workspace application with access to Eikon Data APIs and RDP
@@ -68,7 +68,7 @@ The first step is to unzip or download the example project folder into a directo
     ```
 3. Once the environment is created, activate Conda environment named ```ESG_Bonds_Search``` with this command in Anaconda Prompt.
     ```
-    (ESG_Bonds_Search) $>conda activate ESG_Bonds_Search
+    (base) $>conda activate ESG_Bonds_Search
     ```
 4. Run the following command to install the JupyterLab application in the *ESG_Bonds_Search* environment ([Reference](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html))
     ```
