@@ -1,4 +1,4 @@
-# How to use SCREENER and RDP Search for finding Bons ESG Data Workflow
+# How to use SCREENER and RDP Search for finding Bonds ESG Data Workflow
 - Last update: January 2022
 - Environment: Windows 
 - Compiler: Conda distribution
