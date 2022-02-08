@@ -1,7 +1,7 @@
 # How to use SCREENER and RDP Search for finding Bonds ESG Data Workflow
-- Last update: January 2022
+- Last update: February 2022
 - Environment: Windows 
-- Compiler: Conda distribution
+- Compiler: Conda distribution, Python
 - Prerequisite: Refinitiv Eikon or Refinitiv Workspace application with access to Eikon Data APIs and RDP
 
 
