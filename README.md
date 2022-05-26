@@ -1,5 +1,5 @@
 # How to use SCREENER and RDP Search for finding Bonds ESG Data Workflow
-- Last update: February 2022
+- Last update: May 2022
 - Environment: Windows 
 - Compiler: Conda distribution, Python
 - Prerequisite: Refinitiv Eikon or Refinitiv Workspace application with access to Eikon Data APIs and RDP
@@ -19,7 +19,7 @@ This example requires the following dependencies software and libraries.
 4. Internet connection.
 
 *Note:* 
-- This Project has been qualified with Python version 3.8.8 and Conda version 4.10.1
+- This Project has been qualified with Python version 3.9.12 and Conda version 4.10.1
 
 Please contact your Refinitiv's representative to help you to access Refinitiv Workspace/Eikon and Refinitiv Data Platform credentials. 
 * For JupyterLab user, you can generate/manage the AppKey by follow the steps in [Eikon Data API Quick Start](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/quick-start) page.
@@ -70,22 +70,18 @@ The first step is to unzip or download the example project folder into a directo
     ```
     (base) $>conda activate ESG_Bonds_Search
     ```
-4. Run the following command to install the JupyterLab application in the *ESG_Bonds_Search* environment ([Reference](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html))
-    ```
-    (plotly_chart) $>conda install -c conda-forge jupyterlab
-    ```
-5. Once the JupyterLab application installation process success, run the following command to install Eikon Data API, RDP Library for Python, and all dependencies in the *ESG_Bonds_Search* environment
+4. Run the following command to install the Eikon Data API, RDP Library for Python, JupyterLab application, and all dependencies in the *ESG_Bonds_Search* environment ([Reference](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html))
     ```
     (ESG_Bonds_Search) $>pip install -r requirements.txt
     ```
-6. Once the dependencies installation process success, Set up your OS Environment variables with the following variables and values.
+5. Once the dependencies installation process success, Set up your OS Environment variables with the following variables and values.
     ```
     RDP_USERNAME=YOUR_RDP_USERNAME
     RDP_PASSWORD=YOUR_RDP_PASSWORD
     RDP_APP_KEY=YOUR_RDP_APP_KEY_HERE
     EIKON_APP_KEY=YOUR_EIKON_APP_ID_HERE
     ```
-7. Alternatively, create a file name ```.env``` with the following variables and values.
+6. Alternatively, create a file name ```.env``` with the following variables and values.
     ```
     #RDP
     RDP_USERNAME=YOUR_RDP_USERNAME
