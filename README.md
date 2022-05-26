@@ -64,7 +64,7 @@ The first step is to unzip or download the example project folder into a directo
 1. Open Anaconda Prompt and go to the project's folder
 2. Run the following command in the Anaconda Prompt application to create a Conda environment named *ESG_Bonds_Search* for the project.
     ```
-    (base) $>conda create --name ESG_Bonds_Search python=3.8
+    (base) $>conda create --name ESG_Bonds_Search python=3.9
     ```
 3. Once the environment is created, activate Conda environment named ```ESG_Bonds_Search``` with this command in Anaconda Prompt.
     ```
